@@ -1,0 +1,17 @@
+.heading-1 {
+  font: 700 3rem/1 "Open Sans", sans-serif;
+  letter-spacing: -2px;
+}
+
+.heading-2 {
+  font: 700 1.75rem/1 "Open Sans", sans-serif;
+  letter-spacing: -2px;
+}
+
+.body-m {
+  font: 400 1rem/1.4 "Open Sans", sans-serif;
+}
+
+.body-s {
+  font: 400 0.875rem/1.4 "Open Sans", sans-serif;
+}
