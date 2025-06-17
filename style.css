@@ -90,6 +90,12 @@ a:hover {
   gap: 1rem;
 }
 
+.header-menu-icon {
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+
 /* HERO */
 .hero {
   margin-bottom: 7.75rem;
@@ -258,4 +264,69 @@ footer {
   padding-bottom: 3.5rem;
   color: #292a29;
   text-transform: capitalize;
+}
+
+@media (max-width: 750px) {
+  .header {
+    margin-bottom: 4rem;
+  }
+
+  .hero,
+  .plans,
+  .features,
+  .reach-out {
+    margin-bottom: 5.5rem;
+  }
+
+  .header-menu-icon {
+    display: block;
+  }
+
+  .header-menu,
+  .header-login {
+    display: none;
+  }
+
+  .plans h2,
+  .plans > p {
+    text-align: center;
+  }
+
+  .plans > p {
+    margin-inline: auto;
+  }
+
+  .plan-list {
+    flex-direction: column;
+  }
+
+  .features-list {
+    gap: 0.75rem;
+    justify-content: flex-start;
+  }
+
+  .feature-card {
+    max-width: 100%;
+  }
+  .feature-card > p {
+    max-width: 40ch;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    font-size: 0.875rem;
+  }
+
+  .hero,
+  .plans,
+  .features,
+  .reach-out {
+    margin-bottom: 3.5rem;
+  }
 }
